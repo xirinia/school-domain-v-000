@@ -7,6 +7,7 @@ class School
   def roster(roster)
     @roster=(roster)
   end
+  
   def new(roster)
     @roster = roster
   end
