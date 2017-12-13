@@ -4,6 +4,8 @@ class School
     @name = name
   end
 
+  def roster(roster)
+    @roster=(roster)
   def new(roster)
     @roster = roster
   end
