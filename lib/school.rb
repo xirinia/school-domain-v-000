@@ -11,7 +11,7 @@
       @name = name
       @grade = grade
       roster[grade] = []
-      roster[grade] << [name]
+      roster[grade] << name
     end
   end
 
