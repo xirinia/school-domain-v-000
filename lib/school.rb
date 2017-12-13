@@ -22,7 +22,7 @@
       roster[grade]
     end
 
-    def sort(roster, key)
+    def sort
       roster[key].sort
     end
 
