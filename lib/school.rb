@@ -10,8 +10,12 @@
     def add_student(name, grade)
       @name = name
       @grade = grade
-      roster[grade] = []
-      roster[grade] << name
+      if hash.has_key?(grade)
+        roster[grade] << name
+      else
+        roster[grade] = []
+        roster[grade] << name
+      end
     end
   end
 
