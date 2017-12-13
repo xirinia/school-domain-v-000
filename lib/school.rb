@@ -12,4 +12,4 @@ class School
   end
 end
 
-school = School.new("Test School", [])
+school = School.new("Test School", {})
