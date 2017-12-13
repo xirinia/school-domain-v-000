@@ -24,7 +24,7 @@
 
     def sort
       roster.each do |grade, name|
-        name.sort
+        grade.sort
       end
     end
 
