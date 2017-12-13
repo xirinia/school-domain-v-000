@@ -10,3 +10,6 @@ class School
     @grade = grade
   end
 end
+
+
+school = School.new("Test School")
